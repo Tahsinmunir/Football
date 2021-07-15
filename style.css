@@ -23,18 +23,18 @@ a{
 --------------------*/
 .top-section{
     background-color: #2D25A0;
+    height: 675px;
     display: flex;
     justify-content: center;
 }
-
 .container{
     display: flex;
+    width: 1160px;
     flex-direction: column;
 }
 .menu{
     display: flex;
 }
-
 .f-menu{
     height: 44px;
     display: flex;
@@ -69,7 +69,6 @@ a{
 }
 .f-menu .login_btn ul li{
     display: inline-block;
-
 }
 .f-menu .login_btn ul li a{
     padding: 5px 10px;
@@ -87,7 +86,6 @@ a{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-
 .ban-text{
     width: 100%;
     display: flex;
@@ -96,7 +94,7 @@ a{
     align-items: left;
     text-align: start;
 }
-.ban-text h1{
+.ban-text h2{
     font-size: 64px;
     color: white;
     font-weight: 700;
