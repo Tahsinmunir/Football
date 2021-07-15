@@ -136,8 +136,7 @@ a{
     main section
 ------------------ */
 .players-section,
-.highlight-section,
-.football_products{
+.highlight-section{
     padding: 70px 10px;
     display: flex;
     justify-content: center;
@@ -206,7 +205,51 @@ a{
 /* -----------
     footer 
 --------------*/
-footer{
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 65px 0px;
+}
+.footer-section .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-img img{
+    height: 130px;
+    margin-bottom: 20px;
+}
+.social-media ul{
+    list-style: none;
+    display: block;
+    margin-bottom: 20px;
+}
+.social-media ul{
+    list-style: none;
+    display: block;
+}
+.social-media ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social-media ul li a img{
+    height: 50px;
+    width: 50px;
+    padding: 10px 12px;
+}
+.copyright h1{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+/* footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -217,4 +260,4 @@ footer{
     font-size: 30px;
     margin-right: 25px;
     margin-left: 25px;
-}
+} */
